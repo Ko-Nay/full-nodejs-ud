@@ -11,7 +11,7 @@ router.get('/create-user', (req, res, next) => {
   res.sendFile(path.join(__dirname, '..', 'views', 'CreateUser.html'));
 });
 
-router.post('/users', (req, res, next) => {
+router.post('/create-user', (req, res, next) => {
   console.log(req.body);
   res.redirect('/create-user');
 });
