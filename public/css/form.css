@@ -1,0 +1,20 @@
+form {
+  font-family: inherit;
+}
+
+label {
+  color: blue;
+}
+
+input {
+  border: 1px solid blue;
+  border-radius: 2px;
+  background-color: whitesmoke;
+  color: #2214e0;
+}
+
+button {
+  border: 1px solid blue;
+  border-radius: 3px;
+  color: #3a8d3a;
+}

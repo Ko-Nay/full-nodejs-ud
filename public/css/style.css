@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #3a8d3a;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding-left: 3rem;
+}
+
+li a:hover,
+li a:active {
+  color: #12077a;
+}
+
+main {
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+
+.error404 {
+  color: #fb2323;
+}
